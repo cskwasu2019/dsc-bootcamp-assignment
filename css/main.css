@@ -39,7 +39,7 @@ main {
     font-family: "Montserrat", Arial, Helvetica, sans-serif
 }
 
-section {
+section, footer {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -95,6 +95,7 @@ section {
 #main-form input[type="submit"] {
     background: var(--secondary-background-color);
     color: var(--secondary-color);
+    border: none;
 }
 
 #main-form input[type="submit"]:hover {
