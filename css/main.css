@@ -95,7 +95,7 @@ section {
 #main-form input[type="submit"] {
     background: var(--secondary-background-color);
     color: var(--secondary-color);
-    border: none;
+    border: none !important;
 }
 
 #main-form input[type="submit"]:hover {
